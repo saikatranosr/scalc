@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+body{
+    webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#keyCon{
+    position: absolute;
+    bottom: 0;
+    /*border: 2px solid red;*/
+    height: 95vw;
+}
+.grid-item{
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    border-radius: 100px;
+    transition: .5s;
+    font-family: 'Monospace', Arial;
+}
+.form-select{
+    border: none;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+.dropdown-item{
+    font-family: 'Dosis', sans-serif;
+}
+.form-select:focus{
+    border: none !important;
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+.form-control{
+    background: none;
+    border: none;
+    text-align: right;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Monospace, sans-serif;
+}
+#scale1Val{
+    color: #48a1ff;
+}
+.grid-item:active{
+    background: rgb(189,221,255);
+    border: 0.1px solid #004690;
+    transform: scale(.9);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
