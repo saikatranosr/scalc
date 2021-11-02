@@ -17,7 +17,8 @@ body{
     border: none;
     background: none;
     font-size: 1.5rem;
-    border-radius: 100px;
+    border-radius: 100vw;
+    background: #f0f0f0;
     transition: .5s;
     font-family: 'Monospace', Arial;
 }
@@ -47,7 +48,7 @@ body{
 }
 .grid-item:active{
     background: rgb(189,221,255);
-    border: 0.1px solid #004690;
+    /*border: 0.1px solid #004690;*/
     transform: scale(.9);
 }
 .grid-container{
